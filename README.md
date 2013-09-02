@@ -18,7 +18,7 @@ cocos2d-x向けに、上のスクリプトで書きだしたplistから位置情
 
 ---
 まだ途中。今のところ  
-iPhone非retina  
-iPhoneRetina 3.5inch  
-iPhoneRetina 4inch  
+iPhone (320 * 480)  
+iPhoneRetina 3.5inch (640 * 960)  
+iPhoneRetina 4inch (640 * 1136)  
 まで作った
