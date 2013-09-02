@@ -13,7 +13,7 @@ cocos2d-x向けに、上のスクリプトで書きだしたplistから位置情
 
     CCAEPositionLoader *posLoader = CCAEPositionLoader::create("position.plist");
     CCSprite *sprite = CCSprite::create("image.png");
-    titleLogo->setPosition(posLoader->loadPosition("image.png"));
+    sprite->setPosition(posLoader->loadPosition("image.png"));
     this->addChild(sprite);
 
 ---
